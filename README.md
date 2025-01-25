@@ -54,6 +54,6 @@ The pipeline demonstrates the use of modern data engineering tools and processes
   );
 
 ####  (b) Google BigQuery
-- A connection to Google BigQuery is established using a ** Google Cloud service account **.
+- A connection to Google BigQuery is established using a **Google Cloud service account**.
 - The cleaned data is uploaded to a BigQuery table named weather in the dataset weather_data.
 - The pandas-gbq library is used to streamline the upload process, enabling efficient batch uploads and schema mapping.
